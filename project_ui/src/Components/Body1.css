@@ -1,0 +1,73 @@
+* {
+
+  text-align: center;
+}
+button{
+    
+    border: 1px solid black;
+    width: 100px;
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;
+
+    justify-content: center;
+}
+.card-text{
+    align-items: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+
+  .column {
+    width: 30%;
+    display: block;
+    margin-bottom: 20px;
+    align-self: center;
+  }
+
+
+/* Style the counter cards */
+.card {
+    justify-content: center;
+    box-sizing: border-box;
+  padding: 16px;
+  text-align: center;
+  height: 30%;
+  width: 95%;
+}
+#four{
+    color: rgb(19, 201, 233);
+}
+.icon{
+    height: 100px;
+    width: 100px;
+}
+#lower_section{
+    text-align: left;
+    padding: 30px 30px;
+}
+p{
+    font-size: small;
+}
+@media (min-width : 992px){
+    .column {
+        width: 80%;
+      }
+      .row {
+        justify-content: center;
+       }
+}

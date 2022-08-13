@@ -1,0 +1,17 @@
+li{
+	display: inline-block;
+	padding: 5px 20px;
+}
+nav{
+    justify-content: center;
+}
+#top{
+    color: white;
+    padding-left: 160px;
+}
+#inside{
+    color: white;
+}
+ul{
+    padding-right: 160px;
+}

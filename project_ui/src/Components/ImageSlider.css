@@ -1,0 +1,15 @@
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+.container {width: 980px !important;}
+
+.carousel-indicators{
+  border-radius: 20px;
+}
+@media (min-width : 1020px){
+  img{
+    width: 490px;
+  }
+}

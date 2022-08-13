@@ -1,0 +1,12 @@
+.social-icons li 
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+footer{
+  background-color: rgb(43, 180, 214);
+}
+p{
+  display:inline-block;
+  margin-bottom:4px
+}

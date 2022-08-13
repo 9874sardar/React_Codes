@@ -1,0 +1,19 @@
+.card {
+    width: 30rem;
+    align-items: center;
+  }
+#four{
+    color: rgb(19, 201, 233);
+}
+#button{
+    border: 1px solid rgb(168, 168, 168);
+}
+#lower_section{
+    text-align: left;
+    padding: 30px 30px;
+}
+.icon{
+    height: 100px;
+    width: 100px;
+}
+
